@@ -1,0 +1,9 @@
+1. epochs is the no times the program is ran. It is 20 in this project.
+2. root is the location of the image folder.
+3. 500 images of each plant is taken then converted to grey scale and then resized in
+   256 X 256.
+4. each image is then standardised.
+5. data is split in the ratio 80:20 for train test.
+6.data is augumented.
+7. activation function: relu, optimizer: Adam, loss_fun = Softmax
+8.Accuracy  98.17129223939676 is acheived.
